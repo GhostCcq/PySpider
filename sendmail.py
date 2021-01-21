@@ -6,12 +6,12 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 mail_host = 'smtp.exmail.qq.com'
-mail_user = 'chenquan@esharex.com'
-mail_paas = 'yueyehackO0'
+mail_user = 'xxxx@qq.com'
+mail_paas = '123456'
 
-sender = 'chenquan@esharex.com'
+sender = 'xxxx@qq.com'
 receivers = [
-    '909369051@qq.com'
+    'xxxx@qq.com'
 ]
 
 message = MIMEText('Python 邮件测试发送~~~', 'plain', 'utf-8')
